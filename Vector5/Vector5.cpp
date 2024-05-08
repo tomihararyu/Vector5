@@ -19,7 +19,7 @@ int main() {
     v[1] = 456;
     v[2] = -789;
 
-    printVector(v); 
+    printVector(v); ///aaaa
 
     return 0;
 }
