@@ -5,8 +5,8 @@
 #include <vector>
 using namespace std;
 
-template<typename TYPE>
-void printVector(const vector<TYPE> v) {
+
+void printVector(vector<int> v) {
     int SIZE = v.capacity(); 
     for (int i = 0; i < SIZE; i++) {
         cout << v[i] << endl;
